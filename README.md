@@ -1,4 +1,5 @@
 # MCP Server Starter
+[![smithery badge](https://smithery.ai/badge/@coinselor/mcp-zenon)](https://smithery.ai/server/@coinselor/mcp-zenon)
 
 A production-ready starter template for building Model Context Protocol (MCP) servers with TypeScript.
 
@@ -108,6 +109,14 @@ Remember to update the version number using `bun run release` before publishing 
 
 ## Installing from npm (after publishing)
 
+### Installing via Smithery
+
+To install MCP Server Starter for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@coinselor/mcp-zenon):
+
+```bash
+npx -y @smithery/cli install @coinselor/mcp-zenon --client claude
+```
+
 Add to your Claude Desktop config:
 ```json
 // You only need the argument if you need to pass arguments to your server
@@ -119,3 +128,5 @@ Add to your Claude Desktop config:
     }
   }
 }
+```
+
